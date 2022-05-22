@@ -1,16 +1,15 @@
-* EMAX - A modern and simple setup for GNU/Emacs
+#+TITLE: EMAX - A modern and simple setup for GNU/Emacs
 
 The goal of this project is to serve as a starting point for newcomers to Emacs.
-
 This setup is mainly for GNU/Emacs 28+ on MacOS with native compilation support.
 
-** Goals
+* Goals
 - Fast
 - Modern package selection
 - Good looking
 - Extensible
 
-** Core packages
+* Core packages
 - straight.el
 - Selectrum
 - Corfu
@@ -19,7 +18,7 @@ This setup is mainly for GNU/Emacs 28+ on MacOS with native compilation support.
 - doom-themes
 - mood line mode
 
-** Installing GNU/Emacs on MacOS
+* Installing GNU/Emacs on MacOS
 
 #+BEGIN_SRC
 brew tap d12frosted/emacs-plus

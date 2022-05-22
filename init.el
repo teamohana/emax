@@ -372,8 +372,8 @@
   :straight t
   :after magit
   :hook
-  ((magit-pre-refresh . diff-hl-magit-pre-refresh)
-   (magit-post-refresh . diff-hl-magit-post-refresh))
+  (magit-pre-refresh . diff-hl-magit-pre-refresh)
+  (magit-post-refresh . diff-hl-magit-post-refresh)
   :init
   (setq diff-hl-draw-borders nil)
   :config
