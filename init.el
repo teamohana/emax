@@ -84,11 +84,6 @@
   (set-fontset-font t 'symbol (font-spec :family "Apple Symbols") nil 'prepend)
   (set-fontset-font t 'symbol (font-spec :family "Apple Color Emoji") nil 'prepend))
 
-; we need this to set PATH etc correctly
-(use-package exec-path-from-shell
-  :straight t
-  :init (exec-path-from-shell-initialize))
-
 
 ;; ------------------------
 ;; --- more sanity settings
